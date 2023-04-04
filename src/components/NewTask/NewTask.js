@@ -1,6 +1,6 @@
-import Section from '../UI/Section';
-import TaskForm from './TaskForm';
-import useHttp from '../../hooks/use-http';
+import Section from "../UI/Section";
+import TaskForm from "./TaskForm";
+import useHttp from "../../hooks/use-http";
 
 const NewTask = (props) => {
   const { isLoading, error, sendRequest: sendTaskRequest } = useHttp();
@@ -15,10 +15,10 @@ const NewTask = (props) => {
   const enterTaskHandler = async (taskText) => {
     sendTaskRequest(
       {
-        url: 'https://react-http-6b4a6.firebaseio.com/tasks.json',
-        method: 'POST',
+        url: "https://punreliable-tasks-default-rtdb.firebaseio.com/tasks.json",
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: { text: taskText },
       },

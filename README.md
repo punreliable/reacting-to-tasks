@@ -1,5 +1,5 @@
 # Reacting to Tasks
-## v1.0.0
+## v1.1.0
 ---
 
 ### Description
@@ -15,5 +15,6 @@ Punreliable
 
 ### History
 ---
- - 20231030 | v1.0.0 - App clean-up, README update
+ - 20231030 | v1.1.0 - README update
+ - 20231030 | v1.0.0 - App clean-up
  - 20230202 | v0.1.0 - Project Init
